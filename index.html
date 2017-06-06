@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Health Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Health Survey</h2>
+      </div>
+      <form id="health-survey">
+        <div class="form-group">
+          <p>Warning signs of being negatively affected by stress:</p>
+          <input type="checkbox" name="warning-signs" value="sleep"> Loss of sleep.<br>
+          <input type="checkbox" name="warning-signs" value="overwhelmed">Feeling overwhelmed.<br>
+          <input type="checkbox" name="warning-signs" value="appetite">Lack of an appetite.<br>
+          <input type="checkbox" name="warning-signs" value="pain"> Pain.<br>
+          <input type="checkbox" name="warning-signs" value="headache"> Headache.<br>
+          <input type="checkbox" name="warning-signs" value="fatigue"> Fatigue.<br>
+          <input type="checkbox" name="warning-signs" value="irritability"> Irritability.<br>
+          <input type="checkbox" name="warning-signs" value="insomnia"> Insomnia.<br>
+          <input type="checkbox" name="warning-signs" value="chest-pain"> Chest pain.<br>       <input type="checkbox" name="warning-signs" value="frequent-colds"> Frequent colds and infections.<br>
+        </div>
+
+        <div class="form-group">
+          <p>Health symptoms linked to high-stress:</p>
+          <input type="checkbox" name="health-symptoms" value="high-blood-pressure"> High blood pressure.<br>
+          <input type="checkbox" name="health-symptoms" value="anxiety"> Anxiety.<br>
+          <input type="checkbox" name="health-symptoms" value="carpool">Depression.<br>
+          <input type="checkbox" name="health-symptoms" value="low-energy"> Low energy.<br>
+          <input type="checkbox" name="health-symptoms" value="upset-stomach"> Upset stomach.<br>
+          <input type="checkbox" name="health-symptoms" value="loss-of-sexual-desire"> Loss of sexual desire.<br>
+          <input type="checkbox" name="health-symptoms" value="constipation"> Constipation.<br>
+          <input type="checkbox" name="health-symptoms" value="blurry-vision"> Blurry vision.<br>
+          <input type="checkbox" name="health-symptoms" value="trembling"> Trembling.<br>
+          <input type="checkbox" name="health-symptoms" value="sweating"> Sweating.<br>
+        </div>
+
+        <div class="form-group">
+          <p>Coping methods:</p>
+          <input type="checkbox" name="coping-methods" value="relax"> Relax.<br>
+          <input type="checkbox" name="coping-methods" value="pray"> Pray.<br>
+          <input type="checkbox" name="coping-methods" value="exercise"> Exercise.<br>
+          <input type="checkbox" name="coping-methods" value="meditate"> Meditate.<br>
+          <input type="checkbox" name="coping-methods" value="pet-a-cat"> Pet a cat.<br>
+          <input type="checkbox" name="coping-methods" value="eat-healthy"> Eat healthy.<br>
+          <input type="checkbox" name="coping-methods" value="get-enough-sleep"> Get enough sleep.<br>
+          <input type="checkbox" name="coping-methods" value="music"> Listen to music.<br>
+          <input type="checkbox" name="coping-methods" value="vacation"> Vacation.<br>
+          <input type="checkbox" name="coping-methods" value="friends"> Visit with friends.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="warning-signs">
+        <p><b>You have the following warning signs:</b></p>
+      </span>
+      <br>
+      <span id="health-symptoms">
+        <p><b>You have the following symptoms:</b></p>
+      </span>
+      <span id="coping-methods">
+        <p><b>You use the following methods to cope with your stress:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
